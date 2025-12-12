@@ -188,6 +188,11 @@
 }
 
 /* ------------------ FEATURE HIGHLIGHT LISTS ------------------ */
+
+
+
+
+
 #metaapi.ma-wrapper .ma-highlight {
     padding: 8px ;
 }
@@ -197,12 +202,15 @@
     padding-left: 18px;
 }
 
+
+
 #metaapi.ma-wrapper .ma-highlight li {
     list-style: none;
     margin-bottom: 8px;
     position: relative;
     padding-left: 22px;
-     color: inherit !important;
+   
+   
 }
 
 #metaapi.ma-wrapper .ma-highlight li::before {
@@ -210,10 +218,12 @@
     font-weight: 700;
     margin-right: 8px;
     position: absolute;
-    color: currentColor;
+     color:var(--tick);
     top:0;
     left: 0;
 }
+
+
 
 
 #metaapi.ma-wrapper .ma-orange::before { color: #eb9203; }

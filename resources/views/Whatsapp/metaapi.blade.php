@@ -1,4 +1,5 @@
 @include('Layouts.header')
+@extends('Layouts.header')
 <div id="metaapi" class="ma-wrapper">
   <link rel="stylesheet" href="{{ asset('css/metaapi.css') }}">
   <!-- Bootstrap CSS -->
@@ -99,7 +100,7 @@
 
           <div class="col cell ma-col ma-cell">
             <div class="channel-section ma-channel-section">
-              <div style="width:100%; color:#333; font-weight:700; margin-bottom:8px;">Only One channel</div>
+              <div style="width:100%; color:#333; font-weight:700; margin-bottom:8px; margin-left:25px; color:#333;">Only One channel</div>
               <div class="channel-box whatsapp ma-channel-box ma-whatsapp" style="width:100%; font-weight:700; margin-left:10px; margin-right:9px; color:#333;">
                 <img src="{{ asset('img/whatsapp-logo.png') }}" alt="WhatsApp Logo" class="channel-logo ma-channel-logo">
                 WhatsApp
@@ -109,7 +110,7 @@
 
           <div class="col cell ma-col ma-cell">
             <div class="channel-section ma-channel-section">
-              <div style="width:100%; color:#333; font-weight:700; margin-bottom:8px;">Only One channel</div>
+              <div style="width:100%; color:#333; font-weight:700; margin-bottom:8px; margin-left:25px; color:#333;">Only One channel</div>
               <div class="channel-box whatsapp ma-channel-box ma-whatsapp" style="width:100%; font-weight:700; margin-left:10px; margin-right:9px; color:#333;">
                 <img src="{{ asset('img/whatsapp-logo.png') }}" alt="WhatsApp Logo" class="channel-logo ma-channel-logo">
                 WhatsApp
@@ -119,7 +120,7 @@
 
           <div class="col cell ma-col ma-cell">
             <div class="channel-section ma-channel-section">
-              <div style="width:100%; color:#333; font-weight:700; margin-bottom:8px;">Only One channel</div>
+              <div style="width:100%; color:#333; font-weight:700; margin-bottom:8px; margin-left:25px; color:#333;">Only One channel</div>
               <div class="channel-box whatsapp ma-channel-box ma-whatsapp" style="width:100%; font-weight:700; margin-left:10px; margin-right:9px; color:#333;">
                 <img src="{{ asset('img/whatsapp-logo.png') }}" alt="WhatsApp Logo" class="channel-logo ma-channel-logo">
                 WhatsApp
@@ -135,8 +136,8 @@
           <div class="col cell starter-bg ma-col ma-cell ma-starter-bg">
             <div class="highlight ma-highlight">
               <ul>
-                <li class="orange ma-orange" style="color:orange;">Send bulk WhatsApp campaigns</li>
-                <li class="orange ma-orange">Manage chats in a Shared Team Inbox & simple automations</li>
+                <li class="orange ma-orange" style="--tick:orange;">Send bulk WhatsApp campaigns</li>
+                <li class="orange ma-orange"  style="--tick:orange;">Manage chats in a Shared Team Inbox & simple automations</li>
               </ul>
             </div>
           </div>
@@ -144,10 +145,10 @@
           <div class="col cell growth-bg ma-col ma-cell ma-growth-bg">
             <div class="highlight ma-highlight">
               <ul>
-                <li class="green ma-green">Everything in Starter, Plus</li>
-                <li class="green ma-green">FAQ automations & linear chatbot flows</li>
-                <li class="green ma-green">Advanced campaigns</li>
-                <li class="green ma-green">Catalogs</li>
+                <li class="green ma-green" style="--tick:green;">Everything in Starter, Plus</li>
+                <li class="green ma-green" style="--tick:green;">FAQ automations & linear chatbot flows</li>
+                <li class="green ma-green" style="--tick:green;">Advanced campaigns</li>
+                <li class="green ma-green" style="--tick:green;">Catalogs</li>
               </ul>
             </div>
           </div>
@@ -155,10 +156,10 @@
           <div class="col cell advanced-bg ma-col ma-cell ma-advanced-bg">
             <div class="highlight ma-highlight">
               <ul>
-                <li class="skyblue ma-sky">Everything in Growth, Plus</li>
-                <li class="skyblue ma-sky">Advanced chatbots & API flows</li>
-                <li class="skyblue ma-sky">Auto-assignment</li>
-                <li class="skyblue ma-sky">Advanced webhooks</li>
+                <li class="skyblue ma-sky" style="--tick:#04318c;">Everything in Growth, Plus</li>
+                <li class="skyblue ma-sky" style="--tick:#04318c;">Advanced chatbots & API flows</li>
+                <li class="skyblue ma-sky" style="--tick:#04318c;">Auto-assignment</li>
+                <li class="skyblue ma-sky" style="--tick:#04318c;">Advanced webhooks</li>
               </ul>
             </div>
           </div>
@@ -166,10 +167,10 @@
           <div class="col cell enterprise-bg ma-col ma-cell ma-enterprise-bg">
             <div class="highlight ma-highlight">
               <ul>
-                <li class="blue ma-blue">Everything in Advanced, Plus</li>
-                <li class="blue ma-blue">RCS channel</li>
-                <li class="blue ma-blue">Higher rate limits</li>
-                <li class="blue ma-blue">Personalised support</li>
+                <li class="blue ma-blue"  style="--tick:#007ae0;">Everything in Advanced, Plus</li>
+                <li class="blue ma-blue"  style="--tick:#007ae0;">RCS channel</li>
+                <li class="blue ma-blue"  style="--tick:#007ae0;">Higher rate limits</li>
+                <li class="blue ma-blue"  style="--tick:#007ae0;">Personalised support</li>
               </ul>
             </div>
           </div>
@@ -182,10 +183,10 @@
           <div class="col cell starter-bg ma-col ma-cell ma-starter-bg">
             <div class="highlight ma-highlight">
               <ul>
-                <li class="orange ma-orange">Unlimited Messages (Based on your WhatsApp Number)</li>
-                <li class="orange ma-orange">Unlimited Contacts</li>
-                <li class="orange ma-orange">15 Custom Fields</li>
-                <li class="orange ma-orange">15 Custom Tags</li>
+                <li class="orange ma-orange" style="--tick:orange;">Unlimited Messages (Based on your WhatsApp Number)</li>
+                <li class="orange ma-orange" style="--tick:orange;">Unlimited Contacts</li>
+                <li class="orange ma-orange" style="--tick:orange;">15 Custom Fields</li>
+                <li class="orange ma-orange" style="--tick:orange;">15 Custom Tags</li>
               </ul>
             </div>
           </div>
@@ -193,11 +194,11 @@
           <div class="col cell growth-bg ma-col ma-cell ma-growth-bg">
             <div class="highlight ma-highlight">
               <ul>
-                <li class="green ma-green">Unlimited Messages (Based on your WhatsApp Number)</li>
-                <li class="green ma-green">Unlimited Contacts</li>
-                <li class="green ma-green">25 Custom Fields</li>
-                <li class="green ma-green">30 Custom Tags</li>
-                <li class="green ma-green">5 Custom Events</li>
+                <li class="green ma-green" style="--tick:green;">Unlimited Messages (Based on your WhatsApp Number)</li>
+                <li class="green ma-green" style="--tick:green;">Unlimited Contacts</li>
+                <li class="green ma-green" style="--tick:green;">25 Custom Fields</li>
+                <li class="green ma-green" style="--tick:green;">30 Custom Tags</li>
+                <li class="green ma-green" style="--tick:green;">5 Custom Events</li>
               </ul>
             </div>
           </div>
@@ -205,11 +206,11 @@
           <div class="col cell advanced-bg ma-col ma-cell ma-advanced-bg">
             <div class="highlight ma-highlight">
               <ul>
-                <li class="skyblue ma-sky">Unlimited Messages (Based on your WhatsApp Number)</li>
-                <li class="skyblue ma-sky">Unlimited Contacts</li>
-                <li class="skyblue ma-sky">30 Custom Fields</li>
-                <li class="skyblue ma-sky">45 Custom Tags</li>
-                <li class="skyblue ma-sky">7 Custom Events</li>
+                <li class="skyblue ma-sky"  style="--tick:#04318c;">Unlimited Messages (Based on your WhatsApp Number)</li>
+                <li class="skyblue ma-sky" style="--tick:#04318c;">Unlimited Contacts</li>
+                <li class="skyblue ma-sky" style="--tick:#04318c;">30 Custom Fields</li>
+                <li class="skyblue ma-sky" style="--tick:#04318c;">45 Custom Tags</li>
+                <li class="skyblue ma-sky" style="--tick:#04318c;">7 Custom Events</li>
               </ul>
             </div>
           </div>
@@ -217,11 +218,11 @@
           <div class="col cell enterprise-bg ma-col ma-cell ma-enterprise-bg">
             <div class="highlight ma-highlight">
               <ul>
-                <li class="blue ma-blue">Unlimited Messages (Based on your WhatsApp Number)</li>
-                <li class="blue ma-blue">Unlimited Contacts</li>
-                <li class="blue ma-blue">Unlimited Custom Fields</li>
-                <li class="blue ma-blue">Unlimited Custom Tags</li>
-                <li class="blue ma-blue">Unlimited Custom Events</li>
+                <li class="blue ma-blue" style="--tick:#007ae0;">Unlimited Messages (Based on your WhatsApp Number)</li>
+                <li class="blue ma-blue" style="--tick:#007ae0;">Unlimited Contacts</li>
+                <li class="blue ma-blue" style="--tick:#007ae0;">Unlimited Custom Fields</li>
+                <li class="blue ma-blue" style="--tick:#007ae0;">Unlimited Custom Tags</li>
+                <li class="blue ma-blue" style="--tick:#007ae0;">Unlimited Custom Events</li>
               </ul>
             </div>
           </div>
@@ -229,7 +230,7 @@
 
       </div> <!-- /ma-pricing-table -->
 
-      <br><br>
+    
     </div> <!-- /marketing -->
 
     <!-- ---------------- SMS PRICING (hidden initially) ---------------- -->
@@ -359,9 +360,9 @@
           <div class="row g-4 justify-content-center">
 
             <!-- SILVER CARD -->
-            <div class="col-lg-4 col-md-6 mb-4">
+            <div class="col-lg-3 col-md-6 mb-4">
               <div id="sales-silver" class="ma-pricing-card h-100">
-                <h3 style="display:flex; align-items:center; gap:8px; margin-top:10px; padding-left:93.5px;">
+                <h3 style="display:flex; align-items:center; gap:8px; margin-top:10px; margin-left:17%;">
                   <img src="{{ asset('img/india.png') }}" alt="india" style="width:38px; height:auto; margin-top:10px;">
                   SILVER
                 </h3>
@@ -383,9 +384,9 @@
             </div>
 
             <!-- GOLD CARD -->
-            <div class="col-lg-4 col-md-6 mb-4">
+            <div class="col-lg-3 col-md-6 mb-4">
               <div id="sales-gold" class="ma-pricing-card h-100">
-                <h3 style="display:flex; align-items:center; gap:8px; margin-top:10px; padding-left:93.5px;">
+                <h3 style="display:flex; align-items:center; gap:8px; margin-top:10px; margin-left:21%;">
                   <img src="{{ asset('img/india.png') }}" alt="india" style="width:38px; height:auto; margin-top:10px;">
                   GOLD
                 </h3>
@@ -407,13 +408,13 @@
             </div>
 
             <!-- PLATINUM -->
-            <div class="col-lg-4 col-md-6 mb-4">
+            <div class="col-lg-3 col-md-6 mb-4">
               <div id="sales-platinum" class="ma-pricing-card h-100">
-                <h3 style="display:flex; align-items:center; gap:8px; margin-top:10px; padding-left:93.5px;">
+                   <center>
+                   <h3 style="display:flex; align-items:center; gap:8px; margin-top:10px; margin-left:14%;">
                   <img src="{{ asset('img/india.png') }}" alt="india" style="width:38px; height:auto; margin-top:10px;">
                   PLATINUM
-                </h3>
-                <center>
+                 </h3>
                     <p>For large businesses</p>
                 <div class="ma-price-amount">₹9,000</div>
                 <div class="ma-price-per-message">9p / message</div> 
@@ -432,13 +433,13 @@
             </div>
 
             <!-- INTERNATIONAL -->
-            <div class="col-lg-4 col-md-6 mb-4">
+            <div class="col-lg-3 col-md-6 mb-4">
               <div id="sales-international" class="ma-pricing-card h-100">
-                <h3 style="display:flex; align-items:center; gap:8px; margin-top:15px; padding-left:55px;">
+               <center>
+                  <h3 style="display:flex; align-items:center; gap:8px; margin-top:15px;">
                   <img src="{{ asset('img/color-globe.png') }}" alt="globe" style="width:40px; height:auto; margin-top:10px;">
                   INTERNATIONAL
                 </h3>
-                <center>
                   <p>For Foreign Clients</p>
                 <div class="ma-price-amount">INR 9,000</div>
                 <div class="ma-price-per-message">9p / message</div>  
@@ -533,18 +534,18 @@
 
                         <tr>
                             <td class="fw-bold">Post-reply-flows for campaigns</td>
-                            <td>Opt-Out Flow, Send Products, Send Interactive List, Send Custom Reply, Send Workflow</td>
-                            <td>Opt-Out Flow, Send Products, Send Interactive List, Send Custom Reply, Send Workflow</td>
-                            <td>Opt-Out Flow, Send Products, Send Interactive List, Send Custom Reply, Send Workflow</td>
-                            <td>Opt-Out Flow, Send Products, Send Interactive List, Send Custom Reply, Send Workflow</td>
+                            <td  class="fw-bold">Opt-Out Flow, Send Products, Send Interactive List, Send Custom Reply, Send Workflow</td>
+                            <td  class="fw-bold">Opt-Out Flow, Send Products, Send Interactive List, Send Custom Reply, Send Workflow</td>
+                            <td  class="fw-bold">Opt-Out Flow, Send Products, Send Interactive List, Send Custom Reply, Send Workflow</td>
+                            <td  class="fw-bold">Opt-Out Flow, Send Products, Send Interactive List, Send Custom Reply, Send Workflow</td>
                         </tr>
 
                         <tr>
                             <td class="fw-bold">Template Types</td>
-                            <td>Upto 10 Buttons, Catalog, LTO, Carousel, WA Form, WA Pay</td>
-                            <td>Upto 10 Buttons, Catalog, LTO, Carousel, WA Form, WA Pay</td>
-                            <td>Upto 10 Buttons, Catalog, LTO, Carousel, WA Form, WA Pay</td>
-                            <td>Upto 10 Buttons, Catalog, LTO, Carousel, WA Form, WA Pay</td>
+                            <td class="fw-bold">Upto 10 Buttons, Catalog, LTO, Carousel, WA Form, WA Pay</td>
+                            <td class="fw-bold">Upto 10 Buttons, Catalog, LTO, Carousel, WA Form, WA Pay</td>
+                            <td class="fw-bold">Upto 10 Buttons, Catalog, LTO, Carousel, WA Form, WA Pay</td>
+                            <td class="fw-bold">Upto 10 Buttons, Catalog, LTO, Carousel, WA Form, WA Pay</td>
                         </tr>
 
                         <tr>
@@ -858,7 +859,7 @@
 
                         <tr>
                             <td>Public APIs</td>
-                            <td></td>
+                           
                             <td>Track, Template Send, Non-Template Send, Get Users, Chat Assign, Create Template, API Campaign</td>
                             <td>Track, Template Send, Non-Template Send, Get Users, Chat Assign, Create Template, API Campaign</td>
                             <td>Track, Template Send, Non-Template Send, Get Users, Chat Assign, Create Template, API Campaign</td>
@@ -866,7 +867,7 @@
 
                         <tr>
                             <td>Public Webhooks</td>
-                            <td></td>
+                           
                             <td>
                                 Account Alerts, Template Alerts, Delivery Status,
                                 Carts & Orders, Payment Confirmations
@@ -935,7 +936,7 @@
 
                         <tr>
                             <td>Custom Events</td>
-                            <td class="text-center">–</td>
+                            <td class="text-center"></td>
                             <td>5 unique fields free</td>
                             <td>7 unique fields free</td>
                             <td>Unlimited</td>
@@ -951,7 +952,7 @@
 
                         <tr>
                             <td>Access Permissions for Agents</td>
-                            <td class="text-center">–</td>
+                            <td class="text-center"></td>
                             <td class="text-success text-center fw-bold">✔</td>
                             <td class="text-success text-center fw-bold">✔</td>
                             <td class="text-success text-center fw-bold">✔</td>
@@ -959,7 +960,7 @@
 
                         <tr>
                             <td>Team Creation</td>
-                            <td class="text-center">–</td>
+                            <td class="text-center"></td>
                             <td></td>
                             <td>Coming Soon</td>
                             <td>Coming Soon</td>

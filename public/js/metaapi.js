@@ -82,6 +82,7 @@ const smsPricing = {
 };
 
 
+
 document.querySelectorAll(".billing-btn").forEach(btn => {
     btn.addEventListener("click", function () {
 
@@ -90,8 +91,9 @@ document.querySelectorAll(".billing-btn").forEach(btn => {
 
         let selectedPlan = this.getAttribute("data-plan");
 
+        // detect visible section
         const marketingVisible = document.querySelector("#marketing").classList.contains("active");
-        const salesVisible = document.querySelector("#sales");
+        const salesVisible = document.querySelector("#sales").classList.contains("active");
 
         const marketingPlans = ["starter", "growth", "advanced", "enterprise"];
         const salesPlans = ["sales-silver", "sales-gold", "sales-platinum", "sales-international"];
@@ -99,31 +101,26 @@ document.querySelectorAll(".billing-btn").forEach(btn => {
         const plansToUpdate = marketingVisible ? marketingPlans : salesPlans;
 
         plansToUpdate.forEach(plan => {
-
             let data = marketingVisible 
                 ? pricingData[plan][selectedPlan]
                 : smsPricing[plan][selectedPlan];
 
-           
-            let amt = document.querySelector(`#${plan} .price-amount`);
+            // ✔ Matches your HTML
+            let amt = document.querySelector(`#${plan} .ma-price-amount`);
             if (amt) amt.textContent = data.amount;
 
-         
-            if (marketingVisible) {
-                let ppm = document.querySelector(`#${plan} .price-per-message`);
-                if (ppm) ppm.textContent = data.perMsg;
+            let period = document.querySelector(`#${plan} .ma-price-period`);
+            if (period && marketingVisible) period.textContent = data.period;
 
-                document.querySelector(`#${plan} .price-period`).textContent = data.period;
-                document.querySelector(`#${plan} .price-desc`).textContent = data.desc;
-            }
+            let desc = document.querySelector(`#${plan} .price-desc`);
+            if (desc && marketingVisible) desc.textContent = data.desc;
 
-          
-            if (salesVisible) {
-                let ppm = document.querySelector(`#${plan} .price-per-message`);
-                if (ppm) ppm.textContent = data.perMsg;  // FIXED HERE
-            }
-
+            // SMS-only field
+            let perMsg = document.querySelector(`#${plan} .ma-price-per-message`);
+            if (perMsg && salesVisible) perMsg.textContent = data.perMsg;
         });
-
     });
 });
+
+
+
