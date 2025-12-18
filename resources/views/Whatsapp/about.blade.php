@@ -4,45 +4,38 @@
    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
    @endsection
 <section id="about" class="py-5 mt-5">
-        <div class="container">
-            <div class="text-center mb-5">
-                <h2 class="fw-bold">About WhatsApp Blast Pro</h2>
-                <div class="divider mx-auto mb-4"></div>
-                <p class="lead">Empowering businesses with powerful messaging solutions</p>
-            </div>
-            
-            <div class="row align-items-center">
-                <!-- <div class="col-lg-6 mb-4 mb-lg-0">
-                    <img src="https://via.placeholder.com/600x400" alt="About Us" class="img-fluid rounded shadow">
-                </div> -->
-                      <div class="row justify-content-center">
-            <div class="col-lg-8 text-center">
+    <div class="container">
 
-                <!-- Title -->
+        <!-- Section Heading -->
+        <div class="text-center mb-5">
+            <h2 class="fw-bold">About WhatsApp Blast Pro</h2>
+            <div class="divider mx-auto mb-4"></div>
+            <p class="lead">Empowering businesses with powerful messaging solutions</p>
+        </div>
+
+        <!-- Content -->
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-md-10 about-content text-center">
+
                 <h2 class="mb-4">About Us</h2>
 
-                <!-- Description -->
-                <p class="mb-5">
-                    We are a trusted messaging solutions provider focused on helping businesses connect with their audience instantly. Our platforms are built to deliver reliable, fast, and scalable communication.
-                    With a strong technical foundation and customer-first approach, we empower brands to grow through smart digital messaging. Our goal is to simplify communication while maximizing reach and engagement.
+                <p class="mb-5 about-text">
+                    We are a trusted messaging solutions provider focused on helping businesses connect with their audience instantly.
+                    Our platforms are built to deliver reliable, fast, and scalable communication.
+                    With a strong technical foundation and customer-first approach, we empower brands to grow through smart digital messaging.
+                    Our goal is to simplify communication while maximizing reach and engagement.
                 </p>
 
-                <!-- <p class="mb-5">
-                    We deliver customer focused and quality driven solutions with innovative ideas and strategy.
-                    We, at Our Company, strive relentlessly to keep up with customer expectations and satisfaction
-                    in the fields of Online Marketing and Digital Media Marketing.
-                </p> -->
-
-                <!-- Button -->
                 <a href="{{route('virtual')}}" class="btn btn-outline-success px-4">
                     All Features
                 </a>
 
             </div>
         </div>
-            </div>
-        </div>
-    </section>
+
+    </div>
+</section>
+
        <div class="modal fade" id="signInModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">

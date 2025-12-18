@@ -27,7 +27,7 @@
                     <ul class="list-unstyled">
                         <li class="mb-2"><a href="{{route('home')}}" style="color: var(--footer-text); text-decoration: none; transition: all 0.3s; display: block;" onmouseover="this.style.color='var(--primary-color)'" onmouseout="this.style.color='var(--footer-text)'">Home</a></li>
                         <li class="mb-2"><a href="#key-features" style="color: var(--footer-text); text-decoration: none; transition: all 0.3s; display: block;" onmouseover="this.style.color='var(--primary-color)'" onmouseout="this.style.color='var(--footer-text)'">Features</a></li>
-                        <li class="mb-2"><a href="#" style="color: var(--footer-text); text-decoration: none; transition: all 0.3s; display: block;" onmouseover="this.style.color='var(--primary-color)'" onmouseout="this.style.color='var(--footer-text)'">DATABASE</a></li>
+                        <li class="mb-2"><a href="#" style="color: var(--footer-text); text-decoration: none; transition: all 0.3s; display: block;" onmouseover="this.style.color='var(--primary-color)'" onmouseout="this.style.color='var(--footer-text)'">Database</a></li>
                         <li class="mb-2"><a href="{{route('virtual')}}" style="color: var(--footer-text); text-decoration: none; transition: all 0.3s; display: block;" onmouseover="this.style.color='var(--primary-color)'" onmouseout="this.style.color='var(--footer-text)'">SMS Pricing</a></li>
                         <li><a href="{{route('contactus')}}" style="color: var(--footer-text); text-decoration: none; transition: all 0.3s; display: block;" onmouseover="this.style.color='var(--primary-color)'" onmouseout="this.style.color='var(--footer-text)'">Contact</a></li>
                     </ul>

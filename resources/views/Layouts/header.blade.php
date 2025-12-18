@@ -38,8 +38,8 @@
                 <li class="nav-item"><a class="nav-link" href="{{route('home')}}">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="{{route('about')}}">About Us</a></li>
                 <li class="nav-item"><a class="nav-link" href="{{route('virtual')}}">Virtual Number</a></li>
-                <li class="nav-item"><a class="nav-link" href="{{route('api')}}">META API</a></li>
-                <li class="nav-item"><a class="nav-link" href="{{route('ads')}}">ADS</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{route('api')}}">Meta Api</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{route('ads')}}">Ads</a></li>
                 <li class="nav-item"><a class="nav-link" href="{{route('contactus')}}">Contact Us</a></li>
                 <li class="nav-item">
                     <a class="btn btn-outline-success ms-lg-3" href="#"

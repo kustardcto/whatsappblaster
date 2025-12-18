@@ -172,7 +172,7 @@
                                 <i class="fas fa-user-edit fa-2x"></i>
                             </div>
                             <h5>Customized Bulk SMS</h5>
-                            <p class="text-muted mb-0">personalized messages directly to your customer's inbox with ease. Send Add names, IDs, and other details to create a personal and engaging touch</p>
+                            <p class="text-muted mb-0">Personalized messages directly to your customer's inbox with ease. Send Add names, IDs, and other details to create a personal and engaging touch</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4">
