@@ -66,20 +66,21 @@
                 <div class="col-lg-10">
                     <div class="card border-0 glass-card">
                         <div class="card-body p-5 text-dark">
-                            <p class="lead mb-4">
-                                Bulk WhatsApp Marketing Panel allows users to Send Text, Images, Videos, Pdf etc. Here, the user can find other various tools to Run Multimedia Campaign with report. Report tab allows extracting all campaign report as per individual mobile number delivery status.
+                            <p class=" mb-4">
+                              Our Bulk WhatsApp Marketing Panel lets businesses send messages in text, images, videos, PDFs, and more with ease.
+                               Manage and run multimedia campaigns efficiently with powerful tools and track delivery status for each recipient using detailed reports.
                             </p>
                             <p class="mb-4">
-                                Bulk WhatsApp Marketing Panel having unlimited virtual numbers channels. This Panel is 100% safe and reliable and easy to use. Use WhatsApp bulk message Panel to get 100% delivery on WhatsApp numbers.
+                             With unlimited virtual numbers, high delivery rates are guaranteed. Schedule messages, control quantities, and manage campaigns by time zone to reach your audience at the right time.
                             </p>
                             <p class="mb-4">
-                                All users can create and maintain WhatsApp marketing campaigns and also control timezone and quantity as per their need.
+                                Designed for businesses of all sizes, the panel is secure, user-friendly, and scalable, helping you grow your brand nationwide effortlessly.
                             </p>
                             
                             <div class="my-5 py-4 border-top border-bottom">
                                 <h3 class="text-center mb-4">WHATSAPP PANEL FOR INDIAN BUSINESSES</h3>
                                 <p class="mb-0">
-                                    We have existing business relations with major companies in each and every state across India which will ensure a hassle-free & seamless service experience. Our strong & efficient development team delivers continuous innovation and customer satisfaction to a whole new level. Bulk WhatsApp Services is an easy way to promote business using WhatsApp technology.
+                                   Our WhatsApp Panel is specifically engineered for the Indian market, ensuring guaranteed high delivery rates across all states thanks to our strong nationwide relationships. The platform enables you to effortlessly run rich multimedia campaigns sending text, images, videos, and PDFs in local languages to connect with your diverse audience. Backed by a skilled development team, the panel is secure, highly scalable for national growth, and includes detailed analytics and 24/7 support, making it the ultimate tool for reliable and effective bulk marketing in India.
                                 </p>
                             </div>
                             
@@ -118,7 +119,7 @@
                                 <div class="me-4 text-primary">
                                     <i class="fas fa-bolt fa-2x"></i>
                                 </div>
-                                <div>
+                                  <div>
                                     <h5 class="mb-2">Lightning Fast Delivery</h5>
                                     <p class="text-muted mb-0">Reach thousands of customers in seconds with our high-speed platform.</p>
                                 </div>
@@ -171,7 +172,7 @@
                                 <i class="fas fa-user-edit fa-2x"></i>
                             </div>
                             <h5>Customized Bulk SMS</h5>
-                            <p class="text-muted mb-0">Personalize messages with customer names, IDs, and other details without needing Excel plugins.</p>
+                            <p class="text-muted mb-0">personalized messages directly to your customer's inbox with ease. Send Add names, IDs, and other details to create a personal and engaging touch</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4">
@@ -180,7 +181,7 @@
                                 <i class="fas fa-link fa-2x"></i>
                             </div>
                             <h5>Link Attachments</h5>
-                            <p class="text-muted mb-0">Share important links, images, or PDF files directly in your SMS messages.</p>
+                            <p class="text-muted mb-0">Include important links in every SMS you send, such as images, PDFs, or other files.Share content directly with your audience for better engagement and convenience.</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4">
@@ -189,7 +190,7 @@
                                 <i class="fas fa-language fa-2x"></i>
                             </div>
                             <h5>Polyglot SMS</h5>
-                            <p class="text-muted mb-0">Send messages in multiple regional languages to reach diverse audiences.</p>
+                            <p class="text-muted mb-0">Send SMS in multiple languages to connect with a diverse audience.Reach customers in their preferred language for higher engagement and impact.</p>
                         </div>
                     </div>
                 </div>
@@ -204,7 +205,9 @@
                                 <i class="fas fa-calendar-alt fa-2x"></i>
                             </div>
                             <h5>Scheduler</h5>
-                            <p class="text-muted mb-0">Plan and schedule your SMS campaigns in advance with our built-in scheduler.</p>
+                            <p class="text-muted mb-0">Plan and send your SMS campaigns at the perfect time.
+Automate messages to reach your audience when engagement is highest.
+</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4">
@@ -213,7 +216,9 @@
                                 <i class="fas fa-ticket-alt fa-2x"></i>
                             </div>
                             <h5>Tickets & Vouchers</h5>
-                            <p class="text-muted mb-0">Send exclusive coupon codes and vouchers directly via SMS.</p>
+                            <p class="text-muted mb-0">Easily send tickets, vouchers, and promo codes via SMS to your customers.
+Ensure quick delivery and seamless access to offers and events.
+</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4">
@@ -222,7 +227,9 @@
                                 <i class="fas fa-clipboard-list fa-2x"></i>
                             </div>
                             <h5>Surveys & Forms</h5>
-                            <p class="text-muted mb-0">Conduct customer surveys and collect feedback through SMS forms.</p>
+                            <p class="text-muted mb-0">Collect feedback and responses directly through SMS with surveys and forms.
+Engage your audience and gain valuable insights effortlessly.
+</p>
                         </div>
                     </div>
                 </div>
@@ -237,7 +244,9 @@
                                 <i class="fas fa-database fa-2x"></i>
                             </div>
                             <h5>Contact Management</h5>
-                            <p class="text-muted mb-0">Easily import contacts from Excel or directly manage them in our user-friendly interface.</p>
+                            <p class="text-muted mb-0">Easily organize and manage all your contacts in one place.
+Segment your audience for targeted and effective SMS campaigns.
+</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4">
@@ -246,7 +255,7 @@
                                 <i class="fas fa-id-card fa-2x"></i>
                             </div>
                             <h5>Sender Name</h5>
-                            <p class="text-muted mb-0">Enhance brand recognition by using your brand name as the sender ID.</p>
+                            <p class="text-muted mb-0">Customize the sender name to make your messages instantly recognizable.Build trust and improve engagement with every SMS you send.</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4">
@@ -255,7 +264,7 @@
                                 <i class="fas fa-file-alt fa-2x"></i>
                             </div>
                             <h5>SMS Templates</h5>
-                            <p class="text-muted mb-0">Save time with pre-designed templates that you can customize for different campaigns.</p>
+                            <p class="text-muted mb-0">Create and save ready-to-use SMS templates for quick messaging.Send consistent, professional messages to your audience effortlessly.</p>
                         </div>
                     </div>
                 </div>
@@ -270,7 +279,7 @@
                                 <i class="fas fa-chart-bar fa-2x"></i>
                             </div>
                             <h5>Campaign Analytics</h5>
-                            <p class="text-muted mb-0">Track campaign effectiveness with detailed reports and click-through tracking.</p>
+                            <p class="text-muted mb-0">Track the performance of your SMS campaigns in real time.Gain insights to optimize delivery, engagement, and overall campaign success.</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4">
@@ -279,7 +288,7 @@
                                 <i class="fas fa-headset fa-2x"></i>
                             </div>
                             <h5>24/7 Support</h5>
-                            <p class="text-muted mb-0">Round-the-clock assistance from our dedicated support team.</p>
+                            <p class="text-muted mb-0">Get round-the-clock assistance for all your SMS service needs.Our dedicated support team ensures smooth and uninterrupted campaign management.</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4">
@@ -288,7 +297,7 @@
                                 <i class="fas fa-globe-asia fa-2x"></i>
                             </div>
                             <h5>Global Reach</h5>
-                            <p class="text-muted mb-0">Send messages to over 200+ countries with our extensive network coverage.</p>
+                            <p class="text-muted mb-0">Send SMS to customers anywhere in the world with ease.Expand your business reach and connect with a global audience instantly.</p>
                         </div>
                     </div>
                 </div>
@@ -310,7 +319,7 @@
                         </div>
                         <div class="text-start">
                             <h4 class="mb-2">ROUND THE CLOCK DELIVERY</h4>
-                            <p class="mb-0">Send WhatsApp SMS regardless of time constraints and deliver important info to your customers across all time zones globally.</p>
+                            <p class="mb-0">Ensure your messages are delivered to customers at any time, day or night.Keep your audience engaged with timely and consistent SMS delivery.</p>
                         </div>
                     </div>
                 </div>
@@ -321,7 +330,7 @@
                         </div>
                         <div class="text-start">
                             <h4 class="mb-2">INSTANT SMS DELIVERY</h4>
-                            <p class="mb-0">Send alerts and reminders across our platform and get instant deliverability on the go using our bulksms services.</p>
+                            <p class="mb-0">Send messages that reach your customers instantly without any delay.Boost engagement and response rates with real-time SMS delivery.</p>
                         </div>
                     </div>
                 </div>
@@ -333,7 +342,7 @@
                         </div>
                         <div class="text-start">
                             <h4 class="mb-2">INTERACTIVE UI</h4>
-                            <p class="mb-0">Handle Bulksms delivery constraints with interactive and easy to use interface.</p>
+                            <p class="mb-0">Navigate and manage your SMS campaigns with an intuitive, user-friendly interface.Experience seamless control and efficiency at every step of your messaging process.</p>
                         </div>
                     </div>
                 </div>
@@ -344,7 +353,9 @@
                         </div>
                         <div class="text-start">
                             <h4 class="mb-2">GENERATE TRAFFIC</h4>
-                            <p class="mb-0">Increase traffic on your website by drawing customer attention to new products and services.</p>
+                            <p class="mb-0">Drive more visitors to your website, store, or promotions through targeted SMS.
+Boost engagement and increase conversions by reaching the right audience effectively.
+</p>
                         </div>
                     </div>
                 </div>
@@ -367,7 +378,7 @@
                         </div>
                         <div>
                             <h4>Offshore Partner</h4>
-                            <p class="mb-0">We welcome IT companies who are looking for offshoring staff. Setting offshore partnerships allows you to provide quality solutions within the deadline at a low cost.</p>
+                            <p class="mb-0">Collaborate with us as an offshore partner to expand your business globally.Leverage our expertise and resources to deliver reliable solutions to your clients.</p>
                         </div>
                     </div>
                 </div>
@@ -380,7 +391,7 @@
                         </div>
                         <div>
                             <h4>White Label Partnership</h4>
-                            <p class="mb-0">We're always ready to provide services on a white label. We understand the importance of white label solutions. We put our partner's brands in front.</p>
+                            <p class="mb-0">Offer our services under your brand with a white label partnership.Expand your business portfolio while providing trusted solutions to your clients.</p>
                         </div>
                     </div>
                 </div>
@@ -393,7 +404,9 @@
                         </div>
                         <div>
                             <h4>Referral Partner</h4>
-                            <p class="mb-0">At Our Company, we offer referral partnerships to companies and individuals who would like to forward leads to us. You just need to provide references, and we'll take care of the rest, offering you a percentage of profit.</p>
+                            <p class="mb-0">Earn rewards by referring clients to our services through our referral program.
+Grow your network while helping businesses access reliable solutions.
+</p>
                         </div>
                     </div>
                 </div>
@@ -406,7 +419,7 @@
                         </div>
                         <div>
                             <h4>Reseller Partner</h4>
-                            <p class="mb-0">We have developed many solutions for small to large industries. We offer fully managed solutions to companies and individuals for reselling.</p>
+                            <p class="mb-0">Become a reseller partner and offer our services to your clients under your brand.Expand your business opportunities while delivering trusted solutions efficiently.</p>
                         </div>
                     </div>
                 </div>
@@ -419,7 +432,7 @@
         <div class="container text-center">
             <h2 class="mb-4">Ready to Boost Your Business with WhatsApp Marketing?</h2>
             <p class="lead mb-4">Join thousands of businesses already growing with our platform</p>
-            <a href="#pricing" class="btn btn-light btn-lg px-5">Get Started Now</a>
+            <a href="{{route('contactus')}}" class="btn btn-success btn-lg px-5">Get Started Now</a>
         </div>
     </section>
 

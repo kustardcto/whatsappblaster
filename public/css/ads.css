@@ -1,0 +1,135 @@
+/* GLOBAL FIX */
+html, body {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* MAIN SECTION */
+.ads-wrapper {
+    min-height: 100svh;
+    padding-top: 120px;
+    padding-bottom: 80px;
+}
+
+/* CARD */
+.img-container {
+    background: #f7f7f7 url("../../public/img/head.png") no-repeat top center;
+    border-radius: 40px 40px 0 0;
+    padding: 40px 50px;
+    max-width: 1100px;
+}
+
+/* TOP TEXT */
+.ads-small {
+    font-size: 22px;
+    color: #1f2c34;
+}
+
+.ads-bold {
+    font-size: 34px;
+    font-weight: 700;
+    color: #00a884;
+}
+
+.ads-right {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.green {
+    color: #00a884;
+}
+
+/* GREEN LINE */
+.tick img {
+    width: 100%;
+    height: 6px;
+    margin: 30px 0;
+    /* margin-top: 400px; */
+    margin-bottom: -450px;
+}
+
+/* PHONE IMAGE */
+.phone-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.ads-phone {
+    width: 100%;
+    max-width: 340px;
+    height: auto;
+}
+
+/* LOGO SLIDER */
+
+.logo-slider {
+    overflow: hidden;
+    margin-top: -320px;
+}
+
+.logo-track {
+    display: flex;
+    gap: 30px;
+    animation: scroll 12s linear infinite;
+
+}
+
+.logo-track img {
+    width: 220px;
+    height: 180px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+@keyframes scroll {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+}
+
+/* 🔥 MOBILE CENTER FIX */
+@media (max-width: 768px) {
+    .ads-wrapper {
+        display: flex;
+        align-items: center;
+        padding-top: 80px;
+        margin-top: -100px;
+        margin-bottom: -90px
+    }
+
+    .ads-top {
+        flex-direction: column;
+        gap: 12px;
+        text-align: center;
+    }
+
+    .ads-right {
+        font-size: 20px;
+        padding-bottom: 50px;
+    }
+
+    .phone-wrapper {
+        margin: 20px 0;
+    }
+
+    .ads-phone {
+        max-width: 280px;
+        margin-top: -100px;
+    }
+    .logo-slider {
+        margin-top: -275px; /* adjust value to fit nicely on mobile */
+    }
+    .tick img
+    {
+        width: 100%;
+        margin-top: -250px;
+    }
+  
+  
+}
+
+
+

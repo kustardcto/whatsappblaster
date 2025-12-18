@@ -1,39 +1,56 @@
 @include('Layouts.header')
-<a href="https://wa.me/YOUR_WHATSAPP_NUMBER" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
-        <i class="fab fa-whatsapp"></i>
-    </a>
-     <div class="modal fade" id="signInModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="contactModalLabel">Get In Touch</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+@extends('Layouts.header')
+
+<link rel="stylesheet" href="{{ asset('css/ads.css') }}">
+
+<section class="ads-wrapper">
+    <div class="container d-flex justify-content-center">
+        <div class="img-container w-100">
+
+            <!-- TOP TEXT -->
+            <div class="ads-top d-flex justify-content-between align-items-center flex-wrap text-center text-lg-start">
+                <div class="ads-left">
+                    <div class="ads-small">Sell Faster with</div>
+                    <div class="ads-bold">WhatsApp Ads</div>
                 </div>
-                  <div class="modal-body p-4">
-                    <form id="signInForm">
-                        <div class="mb-3">
-                            <label for="email" class="form-label">Email address</label>
-                            <input type="email" class="form-control" id="email" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="password" class="form-label">Password</label>
-                            <input type="password" class="form-control" id="password" required>
-                        </div>
-                        <div class="d-flex justify-content-between align-items-center mb-3">
-                            <div class="form-check">
-                                <input type="checkbox" class="form-check-input" id="rememberMe">
-                                <label class="form-check-label" for="rememberMe">Remember me</label>
-                            </div>
-                            <a href="#" class="text-decoration-none">Forgot password?</a>
-                        </div>
-                        <button type="submit" class="btn btn-primary w-100 py-2 mb-3">Sign In</button>
-                        <div class="text-center">
-                            <p class="mb-0">Don't have an account? <a href="#" class="text-decoration-none">Sign up</a></p>
-                        </div>
-                    </form>
+
+                <div class="ads-right">
+                    Click. <span class="green">Chat.</span> Close.
                 </div>
             </div>
+
+            <!-- GREEN LINE -->
+            <div class="tick">
+                <img src="{{ asset('img/green-line.png') }}" alt="line">
+            </div>
+
+            <!-- PHONE IMAGE -->
+            <div class="phone-wrapper">
+                <img src="{{ asset('img/phone.png') }}" alt="mobile" class="ads-phone">
+            </div>
+
+            <!-- LOGO SLIDER -->
+            <div class="logo-slider">
+                <div class="logo-track">
+                    <img src="{{ asset('img/ad-1.png') }}">
+                    <img src="{{ asset('img/ad-2.png') }}">
+                    <img src="{{ asset('img/ad-3.png') }}">
+                    <img src="{{ asset('img/ad-4.png') }}">
+                    <img src="{{ asset('img/ad-5.png') }}">
+
+                    <!-- duplicate -->
+                    <img src="{{ asset('img/ad-1.png') }}">
+                    <img src="{{ asset('img/ad-2.png') }}">
+                    <img src="{{ asset('img/ad-3.png') }}">
+                    <img src="{{ asset('img/ad-4.png') }}">
+                    <img src="{{ asset('img/ad-5.png') }}">
+                </div>
+            </div>
+
         </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</section>
+
 @include('Layouts.footer')
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>

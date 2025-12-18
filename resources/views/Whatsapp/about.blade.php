@@ -12,60 +12,34 @@
             </div>
             
             <div class="row align-items-center">
-                <div class="col-lg-6 mb-4 mb-lg-0">
+                <!-- <div class="col-lg-6 mb-4 mb-lg-0">
                     <img src="https://via.placeholder.com/600x400" alt="About Us" class="img-fluid rounded shadow">
-                </div>
-                <div class="col-lg-6">
-                    <h3 class="mb-4">Who We Are</h3>
-                    <p>WhatsApp Blast Pro is a leading provider of bulk messaging solutions, helping businesses of all sizes connect with their customers effectively. Our platform is designed to be user-friendly, reliable, and scalable to meet your business needs.</p>
-                    <p>With years of experience in the industry, we understand the importance of timely and secure communication. Our team is dedicated to providing the best service and support to our clients.</p>
-                    <div class="row mt-4">
-                        <div class="col-md-6 mb-3">
-                            <div class="d-flex">
-                                <div class="me-3 text-primary">
-                                    <i class="fas fa-check-circle fa-2x"></i>
-                                </div>
-                                <div>
-                                    <h5 class="mb-1">Reliable Service</h5>
-                                    <p class="mb-0 text-muted">99.9% uptime guarantee</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 mb-3">
-                            <div class="d-flex">
-                                <div class="me-3 text-primary">
-                                    <i class="fas fa-shield-alt fa-2x"></i>
-                                </div>
-                                <div>
-                                    <h5 class="mb-1">Secure</h5>
-                                    <p class="mb-0 text-muted">End-to-end encryption</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="d-flex">
-                                <div class="me-3 text-primary">
-                                    <i class="fas fa-headset fa-2x"></i>
-                                </div>
-                                <div>
-                                    <h5 class="mb-1">24/7 Support</h5>
-                                    <p class="mb-0 text-muted">Dedicated support team</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="d-flex">
-                                <div class="me-3 text-primary">
-                                    <i class="fas fa-tachometer-alt fa-2x"></i>
-                                </div>
-                                <div>
-                                    <h5 class="mb-1">Fast Delivery</h5>
-                                    <p class="mb-0 text-muted">Instant message delivery</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                </div> -->
+                      <div class="row justify-content-center">
+            <div class="col-lg-8 text-center">
+
+                <!-- Title -->
+                <h2 class="mb-4">About Us</h2>
+
+                <!-- Description -->
+                <p class="mb-5">
+                    We are a trusted messaging solutions provider focused on helping businesses connect with their audience instantly. Our platforms are built to deliver reliable, fast, and scalable communication.
+                    With a strong technical foundation and customer-first approach, we empower brands to grow through smart digital messaging. Our goal is to simplify communication while maximizing reach and engagement.
+                </p>
+
+                <!-- <p class="mb-5">
+                    We deliver customer focused and quality driven solutions with innovative ideas and strategy.
+                    We, at Our Company, strive relentlessly to keep up with customer expectations and satisfaction
+                    in the fields of Online Marketing and Digital Media Marketing.
+                </p> -->
+
+                <!-- Button -->
+                <a href="{{route('virtual')}}" class="btn btn-outline-success px-4">
+                    All Features
+                </a>
+
+            </div>
+        </div>
             </div>
         </div>
     </section>

@@ -603,7 +603,8 @@ body {
 
 
 .partnership-icon {
-    color: #25D366;
+    /* color: #25D366; */
+    color: #128C7E;
     flex-shrink: 0;
     width: 60px;
     height: 60px;
@@ -749,7 +750,7 @@ footer {
 .footer-bottom {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     padding: 20px 0;
-    margin-top: 40px;
+    margin-top: 39px;
 }
 
 .back-to-top {
@@ -820,10 +821,92 @@ footer {
     
     .social-links {
         justify-content: center;
+
+        
+    }
+    
+}
+
+
+/* 📱 TABLET (iPad) FIX */
+@media (min-width: 768px) and (max-width: 1024px) {
+    h5.footer-heading.mb-3::after {
+        display: none;
+        content: none;
+    }
+    footer .row {
+        row-gap: 30px;
+    }
+
+    footer .col-lg-2,
+    footer .col-md-4 {
+        flex: 0 0 50%;
+        max-width: 50%;
+        margin: 0 !important;
+        text-align: left;
+    }
+
+    footer h5.footer-heading {
+        margin-bottom: 12px;
+        font-size: 16px;
+    }
+
+    footer ul li {
+        margin-bottom: 8px;
+    }
+
+    footer .social-icons {
+        margin-top: 12px;
     }
 }
 
-@media (max-width: 767.98px) {
+
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+
+    footer .row {
+        row-gap: 32px;
+    }
+
+    footer .col-lg-2,
+    footer .col-md-4 {
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+        margin: 0 !important;
+        text-align: left;
+    }
+
+    footer h5.footer-heading {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    footer h5.footer-heading::after {
+        width: 28px;
+    }
+
+    footer ul li {
+        margin-bottom: 6px;
+    }
+}
+
+
+@media (max-width: 767.98px)
+ {
+
+     
+
+        h5.footer-heading.mb-3::after {
+        display: none;
+        content: none;
+    }
+       .footer .col-lg-2.col-md-4.mx-auto {
+        margin-left: 0 !important; 
+        text-align: left;
+       }
+
+     
+
     .whatsapp-float {
         width: 50px;
         height: 50px;
@@ -1299,10 +1382,7 @@ footer {
 
 .cta-section .btn-light:hover {
 
-    #contact {
-        padding: 5rem 0;
-        background-color: #f8f9fa;
-    }
+  
 
     #contactForm {
         background: white;
@@ -1988,7 +2068,7 @@ footer ul li a:hover {
     max-height: 500px;
 }
 
-@media (max-width: 991.98px) {
+@media ((min-width:768px) and (max-width: 991.98px)) {
     .pricing-header {
         padding: 100px 0 50px;
     }
@@ -2000,9 +2080,19 @@ footer ul li a:hover {
     .pricing-header p {
         font-size: 1.1rem;
     }
+
+  .footer{
+    margin: 0;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
-@media (max-width: 767.98px) {
+
+
+
+}
+
+/* @media (max-width: 767.98px) {
     .pricing-header {
         padding: 80px 0 40px;
     }
@@ -2025,4 +2115,37 @@ footer ul li a:hover {
         width: 100%;
         margin: 2px 0;
     }
+
+
+} */
+
+@media (max-width: 767.98px) {
+
+    .navbar .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .navbar-brand {
+        max-width: 75%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .brand-text {
+        font-size: 1.05rem;
+        line-height: 1.2;
+    }
+
+    .navbar-toggler {
+        margin-left: auto;
+    }
 }
+
+
+
+
+
+

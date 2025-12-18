@@ -83,7 +83,7 @@
         <div class="container text-center">
             <h2 class="mb-4">Ready to Get Started?</h2>
             <p class="lead mb-4">Join thousands of businesses already growing with our platform</p>
-            <a href="index.html#pricing" class="btn btn-light btn-lg px-5">Get Started Now</a>
+            <a href="{{route('contactus')}}" class="btn btn-light btn-lg px-5">Get Started Now</a>
         </div>
     </section>
 
