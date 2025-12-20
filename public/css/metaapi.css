@@ -306,6 +306,69 @@
 #metaapi.ma-wrapper #sales-platinum { border-color: green; color:black; }
 #metaapi.ma-wrapper #sales-international { border-color: red; color:black; }
 
+@media (max-width: 992px) {
+    /* 1. Reset the table container */
+    #metaapi.ma-wrapper .ma-pricing-table {
+        display: flex;
+        flex-direction: column; /* Stack Plan 1, then Plan 2, then Plan 3 */
+        border: none;
+    }
+
+    /* 2. Make the Rows behave as transparent containers */
+    #metaapi.ma-wrapper .ma-pricing-row {
+        display: contents; /* This is the "magic" that allows children to reorder */
+    }
+
+    /* 3. Reorder the cells using the 'order' property */
+    /* We group all cells belonging to the same plan together */
+
+    /* Starter Plan Group */
+    #metaapi.ma-wrapper .ma-pricing-row .ma-col:nth-child(2) { order: 1; } 
+    
+    /* Growth Plan Group */
+    #metaapi.ma-wrapper .ma-pricing-row .ma-col:nth-child(3) { order: 2; }
+    
+    /* Advanced Plan Group */
+    #metaapi.ma-wrapper .ma-pricing-row .ma-col:nth-child(4) { order: 3; }
+    
+    /* Enterprise Plan Group */
+    #metaapi.ma-wrapper .ma-pricing-row .ma-col:nth-child(5) { order: 4; }
+
+    /* 4. Style each Plan "Block" to look like a card */
+    #metaapi.ma-wrapper .ma-col {
+        margin-bottom: 20px;
+        border: 2px solid #eee;
+        border-radius: 15px;
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* 5. Hide labels and fix spacing */
+    #metaapi.ma-wrapper .ma-label-col {
+        display: none;
+    }
+
+    #metaapi.ma-wrapper .ma-cell {
+        border: none;
+        border-bottom: 1px solid #f0f0f0;
+        padding: 20px;
+        width: 100% !important;
+    }
+    
+    /* Ensure the header is always at the top of its block */
+    #metaapi.ma-wrapper .ma-header {
+        border-bottom: 2px solid #eee;
+    }
+
+    /* Fix the inline margins you have in HTML for mobile */
+    #metaapi.ma-wrapper .ma-channel-section div {
+        margin-left: 0 !important;
+        text-align: center;
+        width: 100% !important;
+    }
+}
+
 
 
 
