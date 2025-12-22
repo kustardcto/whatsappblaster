@@ -87,6 +87,18 @@
     display: block;
 }
 
+
+
+
+.ma-pricing-row li {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;     /* limit to 2 lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    line-height: 1.4;
+    min-height: calc(1.4em * 2); /* keeps equal height */
+}
+
 /* ------------------ PRICING TABLE ------------------ */
 #metaapi.ma-wrapper .ma-pricing-table {
     display: grid;
@@ -189,38 +201,30 @@
 
 /* ------------------ FEATURE HIGHLIGHT LISTS ------------------ */
 
-
-
-
-
 #metaapi.ma-wrapper .ma-highlight {
-    padding: 8px ;
+    padding: 0;              /* ❌ remove container padding */
 }
 
 #metaapi.ma-wrapper .ma-highlight ul {
     margin: 0;
-    padding-left: 18px;
+    padding: 0;              /* ❌ remove UL padding */
+    list-style: none;
 }
 
-
-
 #metaapi.ma-wrapper .ma-highlight li {
-    list-style: none;
     margin-bottom: 8px;
-    position: relative;
-    padding-left: 22px;
-   
-   
+    padding: 0;              /* ❌ no left padding */
+    display: flex;           /* ✅ align tick + text */
+    align-items: flex-start;
+    gap: 6px;                /* space between tick & text only */
+    font-weight: 400;
 }
 
 #metaapi.ma-wrapper .ma-highlight li::before {
     content: "✔";
+    color: var(--tick);
     font-weight: 700;
-    margin-right: 8px;
-    position: absolute;
-     color:var(--tick);
-    top:0;
-    left: 0;
+    position: static;        /* ❌ remove absolute positioning */
 }
 
 
@@ -314,6 +318,7 @@
         border: none;
     }
 
+
     /* 2. Make the Rows behave as transparent containers */
     #metaapi.ma-wrapper .ma-pricing-row {
         display: contents; /* This is the "magic" that allows children to reorder */
@@ -370,8 +375,113 @@
 }
 
 
+      
+      #metaapi.ma-wrapper .ma-channel-section {
+        display: none !important;
+      }
+ 
 
+    /* 2. Make the Rows behave as transparent containers */
+    #metaapi.ma-wrapper .ma-pricing-row {
+        display: contents; /* This is the "magic" that allows children to reorder */
+    }
 
+    /* 3. Reorder the cells using the 'order' property */
+    /* We group all cells belonging to the same plan together */
 
+    /* Starter Plan Group */
+    #metaapi.ma-wrapper .ma-pricing-row .ma-col:nth-child(2) { order: 1; } 
+    
+    /* Growth Plan Group */
+    #metaapi.ma-wrapper .ma-pricing-row .ma-col:nth-child(3) { order: 2; }
+    
+    /* Advanced Plan Group */
+    #metaapi.ma-wrapper .ma-pricing-row .ma-col:nth-child(4) { order: 3; }
+    
+    /* Enterprise Plan Group */
+    #metaapi.ma-wrapper .ma-pricing-row .ma-col:nth-child(5) { order: 4; }
 
+    /* 4. Style each Plan "Block" to look like a card */
+    #metaapi.ma-wrapper .ma-col {
+        margin-bottom: 20px;
+        border: 2px solid #eee;
+        border-radius: 15px;
+        /* background:#f1c40f; */
 
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* 5. Hide labels and fix spacing */
+    #metaapi.ma-wrapper .ma-label-col {
+        display: none;
+    }
+
+    #metaapi.ma-wrapper .ma-cell {
+        border: none;
+        border-bottom: 1px solid #f0f0f0;
+        padding: 20px;
+        width: 100% !important;
+    }
+    
+    /* Ensure the header is always at the top of its block */
+    #metaapi.ma-wrapper .ma-header {
+        border-bottom: 2px solid #eee;
+    }
+
+    /* Fix the inline margins you have in HTML for mobile */
+    #metaapi.ma-wrapper .ma-channel-section div {
+        margin-left: 0 !important;
+        text-align: center;
+        width: 100% !important;
+    }
+    
+
+    @media (max-width: 992px) {
+       
+        
+    .trial-btn.ma-trial-btn {
+        display: block;
+        margin: 20px auto; 
+        width: fit-content;
+        text-align: center;
+    }
+
+    h3 {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        display: flex !important;
+        justify-content: center !important;
+        width: 100% !important;
+    }
+
+    /* Only the table overflows horizontally */
+    .table-scroll {
+        overflow-x: auto;                 /* horizontal scroll if needed */
+        overflow-y: hidden;               /* prevent vertical scroll */
+        -webkit-overflow-scrolling: touch; /* smooth scroll on mobile */
+        width: 100%;
+    }
+
+    /* Table keeps its natural width */
+    .table-scroll table {
+        width: max-content;   /* table width depends on content */
+        min-width: 100%;      /* ensures table fills container */
+        white-space: nowrap;  /* prevents wrapping of text */
+    }
+
+    /* Optional subtle hint for users */
+    .table-scroll::after {
+        content: "← Swipe to see more →";
+        display: block;
+        text-align: center;
+        font-size: 12px;
+        color: #888;
+        padding: 4px 0;
+    }
+
+    
+
+}
+
+    

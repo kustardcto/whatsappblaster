@@ -36,10 +36,14 @@
 
     <!-- MARKETING SECTION (active by default) -->
     <div id="marketing" class="plan-section ma-plan-section active">
-
+      <div class="pricing-scroll-wrapper">
+       
       <!-- PRICING TABLE -->
-      <div id="whatsapp-pricing" class="pricing-table ma-pricing-table">
-
+      <div id="whatsapp-pricing" class="pricing-table ma-pricing-table ">
+         
+   
+  
+   
         <!-- ROW 1: Header -->
         <div class="pricing-row ma-pricing-row">
           <div class="label-col cell ma-label-col ma-cell">Find the right plan for your needs</div>
@@ -56,7 +60,7 @@
 
           <div class="col cell header ma-col ma-cell ma-header">
             <div id="growth">
-              <h4 class="title" style="color:#00a67d">Growth</h4>
+            <h4 class="title" style="color:#00a67d">Growth</h4>
               <div class="price-amount ma-price-amount">₹2,799</div>
               <div class="price-period ma-price-period">/mo (+taxes)</div>
               <div class="price-desc">Unlimited agents (All Roles)</div>
@@ -85,7 +89,7 @@
         </div>
 
         <!-- ROW 2: Channels -->
-        <div class="pricing-row ma-pricing-row">
+        <!-- <div class="pricing-row ma-pricing-row">
           <div class="label-col cell ma-label-col ma-cell">Channels</div>
 
           <div class="col cell ma-col ma-cell">
@@ -127,7 +131,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
 
         <!-- ROW 3: Choose your plan -->
         <div class="pricing-row ma-pricing-row">
@@ -227,6 +231,8 @@
             </div>
           </div>
         </div>
+      </div>
+
 
       </div> <!-- /ma-pricing-table -->
 
@@ -481,6 +487,7 @@
             data-bs-parent="#allFeaturesAccordion">
 
             <div class="accordion-body p-0">
+              <div class="table-scroll">
                 <table class="table table-bordered mb-0">
                     <tbody>
 
@@ -534,18 +541,18 @@
 
                         <tr>
                             <td class="fw-bold">Post-reply-flows for campaigns</td>
-                            <td  class="fw-bold">Opt-Out Flow, Send Products, Send Interactive List, Send Custom Reply, Send Workflow</td>
-                            <td  class="fw-bold">Opt-Out Flow, Send Products, Send Interactive List, Send Custom Reply, Send Workflow</td>
-                            <td  class="fw-bold">Opt-Out Flow, Send Products, Send Interactive List, Send Custom Reply, Send Workflow</td>
-                            <td  class="fw-bold">Opt-Out Flow, Send Products, Send Interactive List, Send Custom Reply, Send Workflow</td>
+                            <td  class="fw">Opt-Out Flow, Send Products, Send Interactive List, Send Custom Reply, Send Workflow</td>
+                            <td  class="fw">Opt-Out Flow, Send Products, Send Interactive List, Send Custom Reply, Send Workflow</td>
+                            <td  class="fw">Opt-Out Flow, Send Products, Send Interactive List, Send Custom Reply, Send Workflow</td>
+                            <td  class="fw">Opt-Out Flow, Send Products, Send Interactive List, Send Custom Reply, Send Workflow</td>
                         </tr>
 
                         <tr>
                             <td class="fw-bold">Template Types</td>
-                            <td class="fw-bold">Upto 10 Buttons, Catalog, LTO, Carousel, WA Form, WA Pay</td>
-                            <td class="fw-bold">Upto 10 Buttons, Catalog, LTO, Carousel, WA Form, WA Pay</td>
-                            <td class="fw-bold">Upto 10 Buttons, Catalog, LTO, Carousel, WA Form, WA Pay</td>
-                            <td class="fw-bold">Upto 10 Buttons, Catalog, LTO, Carousel, WA Form, WA Pay</td>
+                            <td class="fw">Upto 10 Buttons, Catalog, LTO, Carousel, WA Form, WA Pay</td>
+                            <td class="fw">Upto 10 Buttons, Catalog, LTO, Carousel, WA Form, WA Pay</td>
+                            <td class="fw">Upto 10 Buttons, Catalog, LTO, Carousel, WA Form, WA Pay</td>
+                            <td class="fw">Upto 10 Buttons, Catalog, LTO, Carousel, WA Form, WA Pay</td>
                         </tr>
 
                         <tr>
@@ -582,6 +589,8 @@
 
                     </tbody>
                 </table>
+              </div>
+               
             </div>
         </div>
     </div>
@@ -601,23 +610,24 @@
             data-bs-parent="#allFeaturesAccordion">
 
             <div class="accordion-body p-0">
-                <table class="table table-bordered mb-0 fw-bold">
+              <div class="table-scroll">
+               <table class="table table-bordered mb-0 fw-bold">
                     <tbody>
 
                         <tr>
                             <td>Shared Team Inbox</td>
                             <td>WhatsApp</td>
-                            <td>WhatsApp & Instagram</td>
-                            <td>WhatsApp & Instagram</td>
-                            <td>WhatsApp, Instagram & RCS</td>
+                            <td>WhatsApp</td>
+                            <td>WhatsApp</td>
+                            <td>WhatsApp</td>
                         </tr>
 
                         <tr>
                             <td>Chats Auto-assignment</td>
                             <td class="text-center"></td>
-                            <td>Load Equalizing Assignment Within Chatbot</td>
-                            <td>Load Equalizing + Custom Field Based</td>
-                            <td>Load Equalizing + Custom Field Based</td>
+                            <td class="fw-normal text-body">Load Equalizing Assignment Within Chatbot</td>
+                            <td class="fw-normal text-body">Load Equalizing + Custom Field Based</td>
+                            <td class="fw-normal text-body">Load Equalizing + Custom Field Based</td>
                         </tr>
 
                         <tr>
@@ -639,9 +649,9 @@
                         <tr>
                             <td>Chatbot Builder</td>
                             <td class="text-center"></td>
-                            <td>Basic Linear Chatbot</td>
-                            <td>Advanced Flows, API, Auto-assign</td>
-                            <td>Advanced Flows, API, Auto-assign</td>
+                            <td class="fw-normal text-body">Basic Linear Chatbot</td>
+                            <td class="fw-normal text-body">Advanced Flows, API, Auto-assign</td>
+                            <td class="fw-normal text-body">Advanced Flows, API, Auto-assign</td>
                         </tr>
 
                         <tr>
@@ -663,13 +673,15 @@
                         <tr>
                             <td>AnswerBot</td>
                             <td class="text-center"></td>
-                            <td>4 runs (max 5 URLs)</td>
-                            <td>6 runs (max 5 URLs)</td>
+                            <td class="fw-normal text-body">4 runs (max 5 URLs)</td>
+                            <td class="fw-normal text-body">6 runs (max 5 URLs)</td>
                             <td></td>
                         </tr>
 
                     </tbody>
                 </table>
+              </div>
+               
             </div>
         </div>
     </div>
@@ -853,31 +865,31 @@
             data-bs-parent="#allFeaturesAccordion">
 
             <div class="accordion-body p-0">
-
+              <div class="table-scroll">
                 <table class="table table-bordered mb-0 fw-bold">
                     <tbody>
 
                         <tr>
                             <td>Public APIs</td>
                            
-                            <td>Track, Template Send, Non-Template Send, Get Users, Chat Assign, Create Template, API Campaign</td>
-                            <td>Track, Template Send, Non-Template Send, Get Users, Chat Assign, Create Template, API Campaign</td>
-                            <td>Track, Template Send, Non-Template Send, Get Users, Chat Assign, Create Template, API Campaign</td>
+                            <td class="fw-normal text-body">Track, Template Send, Non-Template Send, Get Users, Chat Assign, Create Template, API Campaign</td>
+                            <td class="fw-normal text-body">Track, Template Send, Non-Template Send, Get Users, Chat Assign, Create Template, API Campaign</td>
+                            <td class="fw-normal text-body">Track, Template Send, Non-Template Send, Get Users, Chat Assign, Create Template, API Campaign</td>
                         </tr>
 
                         <tr>
                             <td>Public Webhooks</td>
                            
-                            <td>
+                            <td class="fw-normal text-body">
                                 Account Alerts, Template Alerts, Delivery Status,
                                 Carts & Orders, Payment Confirmations
                             </td>
-                            <td>
+                            <td class="fw-normal text-body">
                                 Account Alerts, Template Alerts, Delivery Status,
                                 Carts & Orders, Payment Confirmations,
                                 Incoming Messages, Chatbot Messages
                             </td>
-                            <td>
+                            <td class="fw-normal text-body">
                                 Account Alerts, Template Alerts, Delivery Status,
                                 Carts & Orders, Payment Confirmations,
                                 Incoming Messages, Chatbot Messages
@@ -887,6 +899,8 @@
                     </tbody>
                 </table>
 
+              </div>
+               
             </div>
         </div>
     </div>
@@ -906,48 +920,49 @@
             data-bs-parent="#allFeaturesAccordion">
 
             <div class="accordion-body p-0">
-
+             <div class="table-scroll">
+              
                 <table class="table table-bordered mb-0 fw-bold">
                     <tbody>
 
                         <tr>
                             <td>Onboarding & Setup</td>
-                            <td>Self-serve</td>
-                            <td>Assisted</td>
-                            <td>Assisted</td>
-                            <td>Assisted</td>
+                            <td class="fw-normal text-body">Self-serve</td>
+                            <td class="fw-normal text-body">Assisted</td>
+                            <td class="fw-normal text-body">Assisted</td>
+                            <td class="fw-normal text-body">Assisted</td>
                         </tr>
 
                         <tr>
                             <td>Free Apps</td>
-                            <td>Shopify & Any 1 of Razorpay, PayU, Woocommerce</td>
-                            <td>Shopify + 3 Apps (Razorpay, PayU, Webengage, Moengage, etc.)</td>
-                            <td>Unlimited</td>
-                            <td>Unlimited</td>
+                            <td class="fw-normal text-body">Shopify & Any 1 of Razorpay, PayU, Woocommerce</td>
+                            <td class="fw-normal text-body">Shopify + 3 Apps (Razorpay, PayU, Webengage, Moengage, etc.)</td>
+                            <td class="fw-normal text-body">Unlimited</td>
+                            <td class="fw-normal text-body">Unlimited</td>
                         </tr>
 
                         <tr>
                             <td>Custom Fields</td>
-                            <td>15 unique fields free</td>
-                            <td>25 unique fields free</td>
-                            <td>30 unique fields free</td>
-                            <td>Unlimited</td>
+                            <td class="fw-normal text-body">15 unique fields free</td>
+                            <td class="fw-normal text-body">25 unique fields free</td>
+                            <td class="fw-normal text-body">30 unique fields free</td>
+                            <td class="fw-normal text-body">Unlimited</td>
                         </tr>
 
                         <tr>
                             <td>Custom Events</td>
                             <td class="text-center"></td>
-                            <td>5 unique fields free</td>
-                            <td>7 unique fields free</td>
-                            <td>Unlimited</td>
+                            <td class="fw-normal text-body">5 unique fields free</td>
+                            <td class="fw-normal text-body">7 unique fields free</td>
+                            <td class="fw-normal text-body">Unlimited</td>
                         </tr>
 
                         <tr>
                             <td>Custom Tags</td>
-                            <td>15 unique tags free</td>
-                            <td>30 unique tags free</td>
-                            <td>45 unique tags free</td>
-                            <td>Unlimited</td>
+                            <td class="fw-normal text-body">15 unique tags free</td>
+                            <td class="fw-normal text-body">30 unique tags free</td>
+                            <td class="fw-normal text-body">45 unique tags free</td>
+                            <td class="fw-normal text-body">Unlimited</td>
                         </tr>
 
                         <tr>
@@ -962,13 +977,14 @@
                             <td>Team Creation</td>
                             <td class="text-center"></td>
                             <td></td>
-                            <td>Coming Soon</td>
-                            <td>Coming Soon</td>
+                            <td class="fw-normal text-body">Coming Soon</td>
+                            <td class="fw-normal text-body">Coming Soon</td>
                         </tr>
 
                     </tbody>
                 </table>
 
+             </div>
             </div>
         </div>
     </div>

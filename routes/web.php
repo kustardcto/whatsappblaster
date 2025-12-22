@@ -3,7 +3,13 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\WhatsappController;
 use App\Http\Controllers\UserController;
+<<<<<<< HEAD
 Route::get('/', [WhatsappController::class, 'homepage'])->name('home');
+=======
+Route::get('/', function () {
+    return view('Whatsapp.home');
+});
+>>>>>>> 889c6b8 (latest-modifications)
 
 Route::get('/home',[WhatsappController::class,'homepage'])->name('home');
 Route::get('/aboutus',[WhatsappController::class,'aboutpage'])->name('about');

@@ -19,7 +19,7 @@
             <div class="logo-placeholder me-2">
                 <i class="fab fa-whatsapp"></i>
             </div>
-            <span class="brand-text">WhatsApp Blast Pro</span>
+            <span class="brand-text">WhatsApp Button</span>
         </a>
 
         <!-- Toggler -->
