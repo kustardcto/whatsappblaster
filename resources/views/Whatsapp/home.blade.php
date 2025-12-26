@@ -47,13 +47,13 @@
             <p class="text-muted">Looking for SMS solutions? <a href="{{route('virtual')}}">Check our SMS pricing</a></p>
         </div>
     </div>
-</section>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+   </section>
+ </button>
+</div>
+</div>
+</div>
+</div>
+</div>
 </section>
 
     <section id="whatsapp-panel-features" class="py-5 bg-gradient-light">
@@ -206,8 +206,8 @@
                             </div>
                             <h5>Scheduler</h5>
                             <p class="text-muted mb-0">Plan and send your SMS campaigns at the perfect time.
-Automate messages to reach your audience when engagement is highest.
-</p>
+                            Automate messages to reach your audience when engagement is highest.
+                           </p>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4">

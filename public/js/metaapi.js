@@ -1,4 +1,6 @@
-    
+/* ================================
+   FEATURE TOGGLE (CUSTOM DROPDOWN)
+================================ */
 function toggleFeature(el) {
     const table = el.nextElementSibling;
     const arrow = el.querySelector(".arrow");
@@ -12,28 +14,39 @@ function toggleFeature(el) {
     }
 }
 
-
-
-
-
+/* ================================
+   TAB SWITCHING (Marketing / SMS / Sales)
+   ❌ NO dropdowns for Sales CRM
+================================ */
 document.querySelectorAll(".tab-btn").forEach(btn => {
     btn.addEventListener("click", () => {
 
-        
+        // tab active state
         document.querySelectorAll(".tab-btn")
             .forEach(b => b.classList.remove("active"));
-
         btn.classList.add("active");
 
-       
+        // section switching
         document.querySelectorAll(".plan-section")
             .forEach(sec => sec.classList.remove("active"));
 
-       
         const target = btn.getAttribute("data-target");
         document.getElementById(target).classList.add("active");
+
+        // 🔥 Feature dropdown control
+        const accordion = document.getElementById("allFeaturesAccordion");
+
+        if (target === "sales") {
+            accordion.style.display = "none";   // ❌ hide for Sales CRM
+        } else {
+            accordion.style.display = "block";  // ✅ show for others
+        }
     });
 });
+
+/* ================================
+   MARKETING PRICING DATA
+================================ */
 const pricingData = {
     starter: {
         monthly:  { amount: "₹999", period: "/mo (+taxes)", desc: "Unlimited agents (Owner Roles)" },
@@ -54,10 +67,12 @@ const pricingData = {
         monthly:  { amount: "On request", period: "", desc: "Unlimited agents (All Roles)" },
         quarterly:{ amount: "On request", period: "", desc: "Unlimited agents (All Roles)" },
         yearly:   { amount: "On request", period: "", desc: "Unlimited agents (All Roles)" }
-    },
+    }
 };
 
-
+/* ================================
+   SALES (SMS) PRICING DATA
+================================ */
 const smsPricing = {
     "sales-silver": {
         monthly:  { amount: "₹1,200", perMsg: "12p / message" },
@@ -69,7 +84,7 @@ const smsPricing = {
         quarterly:{ amount: "₹13,500", perMsg: "9p / message" },
         yearly:   { amount: "₹48,000", perMsg: "8p / message" }
     },
-   "sales-platinum": {
+    "sales-platinum": {
         monthly:  { amount: "₹9,000", perMsg: "9p / message" },
         quarterly:{ amount: "₹24,300", perMsg: "8.1p / message" },
         yearly:   { amount: "₹86,400", perMsg: "7.2p / message" }
@@ -81,17 +96,17 @@ const smsPricing = {
     }
 };
 
-
-
+/* ================================
+   BILLING TOGGLE (Monthly / Quarterly / Yearly)
+================================ */
 document.querySelectorAll(".billing-btn").forEach(btn => {
     btn.addEventListener("click", function () {
 
         document.querySelector(".billing-btn.active").classList.remove("active");
         this.classList.add("active");
 
-        let selectedPlan = this.getAttribute("data-plan");
+        const selectedPlan = this.getAttribute("data-plan");
 
-        // detect visible section
         const marketingVisible = document.querySelector("#marketing").classList.contains("active");
         const salesVisible = document.querySelector("#sales").classList.contains("active");
 
@@ -101,26 +116,28 @@ document.querySelectorAll(".billing-btn").forEach(btn => {
         const plansToUpdate = marketingVisible ? marketingPlans : salesPlans;
 
         plansToUpdate.forEach(plan => {
-            let data = marketingVisible 
+            const data = marketingVisible
                 ? pricingData[plan][selectedPlan]
                 : smsPricing[plan][selectedPlan];
 
-            // ✔ Matches your HTML
-            let amt = document.querySelector(`#${plan} .ma-price-amount`);
+            // amount
+            const amt = document.querySelector(`#${plan} .ma-price-amount`);
             if (amt) amt.textContent = data.amount;
 
-            let period = document.querySelector(`#${plan} .ma-price-period`);
-            if (period && marketingVisible) period.textContent = data.period;
+            // marketing only
+            if (marketingVisible) {
+                const period = document.querySelector(`#${plan} .ma-price-period`);
+                if (period) period.textContent = data.period;
 
-            let desc = document.querySelector(`#${plan} .price-desc`);
-            if (desc && marketingVisible) desc.textContent = data.desc;
+                const desc = document.querySelector(`#${plan} .price-desc`);
+                if (desc) desc.textContent = data.desc;
+            }
 
-            // SMS-only field
-            let perMsg = document.querySelector(`#${plan} .ma-price-per-message`);
-            if (perMsg && salesVisible) perMsg.textContent = data.perMsg;
+            // sales only
+            if (salesVisible) {
+                const perMsg = document.querySelector(`#${plan} .ma-price-per-message`);
+                if (perMsg) perMsg.textContent = data.perMsg;
+            }
         });
     });
 });
-
-
-

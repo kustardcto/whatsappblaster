@@ -28,7 +28,7 @@
                                 <li class="mb-2"><i class="fas fa-check text-success me-2"></i> Email Support</li>
                                 <li class="mb-2"><i class="fas fa-check text-success me-2"></i> 1 User</li>
                             </ul>
-                            <button type="button" class="btn btn-outline-primary w-100 py-2 mt-auto">
+                            <button type="button" class="btn btn-outline-success w-100 py-2 mt-auto ">
                                 Get Started
                             </button>
                         </div>
@@ -53,7 +53,7 @@
                                 <li class="mb-2"><i class="fas fa-check text-success me-2"></i> 5 Users</li>
                                 <li class="mb-2"><i class="fas fa-check text-success me-2"></i> Advanced Analytics</li>
                             </ul>
-                            <button type="button" class="btn btn-warning w-100 py-2 mt-auto fw-bold text-white" style="background-color: #ffd700;">
+                            <button type="button" class="btn btn-warning w-100 py-2 mt-auto fw-bold text-black" style="background-color: #ffd700;">
                                 Get Started
                             </button>
                         </div>
@@ -76,7 +76,7 @@
                                 <li class="mb-2"><i class="fas fa-check text-success me-2"></i> Advanced Analytics</li>
                                 <li class="mb-2"><i class="fas fa-check text-success me-2"></i> API Access</li>
                             </ul>
-                            <button type="button" class="btn btn-outline-primary w-100 py-2 mt-auto">
+                            <button type="button" class="btn btn-outline-success w-100 py-2 mt-auto">
                                 Get Started
                             </button>
                         </div>
@@ -99,7 +99,7 @@
                                 <li class="mb-2"><i class="fas fa-check text-success me-2"></i> Advanced Analytics</li>
                                 <li class="mb-2"><i class="fas fa-check text-success me-2"></i> Custom Integrations</li>
                             </ul>
-                            <button type="button" class="btn btn-outline-primary w-100 py-2 mt-auto">
+                            <button type="button" class="btn btn-outline-success w-100 py-2 mt-auto">
                                 Contact Sales
                             </button>
                         </div>
@@ -131,7 +131,7 @@
                                 <li class="mb-2"><i class="fas fa-check text-success me-2"></i> 100% advance payment</li>
                                 <li class="mb-2"><i class="fas fa-check text-success me-2"></i> Support 24/7</li>
                             </ul>
-                            <button type="button" class="btn btn-outline-primary w-100 py-2 mt-auto">
+                            <button type="button" class="btn btn-outline-success w-100 py-2 mt-auto">
                                 Get Started
                             </button>
                         </div>
@@ -158,7 +158,7 @@
                                 <li class="mb-2"><i class="fas fa-check text-success me-2"></i> 100% advance payment</li>
                                 <li class="mb-2"><i class="fas fa-check text-success me-2"></i> Support 24/7</li>
                             </ul>
-                            <button type="button" class="btn btn-warning w-100 py-2 mt-auto fw-bold text-white" style="background-color: #ffd700;">
+                            <button type="button" class="btn btn-warning w-100 py-2 mt-auto fw-bold text-black" style="background-color: #ffd700;">
                                 Get Started
                             </button>
                         </div>
@@ -182,7 +182,7 @@
                                 <li class="mb-2"><i class="fas fa-check text-success me-2"></i> 100% advance payment</li>
                                 <li class="mb-2"><i class="fas fa-check text-success me-2"></i> Support 24/7</li>
                             </ul>
-                            <button type="button" class="btn btn-outline-primary w-100 py-2 mt-auto">
+                            <button type="button" class="btn btn-outline-success w-100 py-2 mt-auto">
                                 Get Started
                             </button>
                         </div>
